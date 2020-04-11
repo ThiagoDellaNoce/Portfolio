@@ -2,6 +2,8 @@ import React from "react";
 
 import homeImg from "./../../images/_planet.png";
 
+// import "styles.css";
+
 export default function Home() {
   return (
     <div>

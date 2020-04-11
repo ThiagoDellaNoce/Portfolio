@@ -38,10 +38,14 @@ export default function Toolbar() {
           </div>
           <div className="sidebar-content">
             <ListGroup className="menu">
-              <ListGroup.Item className="menu-item">Página inicial</ListGroup.Item>
+              <ListGroup.Item className="menu-item">
+                Página inicial
+              </ListGroup.Item>
               <ListGroup.Item className="menu-item">Sobre</ListGroup.Item>
               <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
-              <ListGroup.Item className="menu-item">Experiências</ListGroup.Item>
+              <ListGroup.Item className="menu-item">
+                Experiências
+              </ListGroup.Item>
               <ListGroup.Item className="menu-item">Contato</ListGroup.Item>
             </ListGroup>
           </div>

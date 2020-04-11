@@ -1,0 +1,69 @@
+/* ----- SMALL ----- */
+.sidebar {
+  display: none;
+}
+
+.sidebar-head {
+  background-color: #0daf47;
+  padding-bottom: 15px;
+}
+
+.profileImg {
+  margin: 20px 0px;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.menu {
+  background-color: #1ed45f;
+}
+
+.menu-item {
+  background-color: #1ed45f;
+  color: #ffffff;
+  border-radius: 0px !important;
+}
+
+.menu-item:hover {
+  background-color: #0daf47;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ----- LARGE ----- */
+@media screen and (min-width: 800px) {
+  .sidebar-head {
+    background-color: #0daf47;
+    padding-bottom: 15px;
+  }
+
+  .profileImg {
+    margin: 20px 0px;
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .sidebar-content {
+    height: 450px;
+  }
+
+  a {
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: #ffffff;
+  }
+}
