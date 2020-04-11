@@ -1,14 +1,12 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 import ListGroup from "react-bootstrap/ListGroup";
 
 import ProfileImg from "./../../images/profile.jpeg";
 
-import Home from "./../../pages/Home";
-import Sobre from "./../../pages/Sobre";
-
 export default function Sidebar() {
+
   return (
     <div>
       <div className="sidebar-head">

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { Link } from "react-router-dom";
+
 import Navbar from "react-bootstrap/Navbar";
 import Collapse from "react-bootstrap/Collapse";
 import ListGroup from "react-bootstrap/ListGroup";
@@ -13,7 +15,7 @@ export default function Toolbar() {
   return (
     <div>
       <Navbar className="navbar" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img
             alt="icone de menu"
             src={MenuImg}
@@ -36,17 +38,26 @@ export default function Toolbar() {
             <h4>Thiago Della Noce</h4>
             <h5>Desenvolvedor</h5>
           </div>
+          
           <div className="sidebar-content">
             <ListGroup className="menu">
-              <ListGroup.Item className="menu-item">
-                Página inicial
-              </ListGroup.Item>
-              <ListGroup.Item className="menu-item">Sobre</ListGroup.Item>
-              <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
-              <ListGroup.Item className="menu-item">
-                Experiências
-              </ListGroup.Item>
-              <ListGroup.Item className="menu-item">Contato</ListGroup.Item>
+              <Link className="back-link" to="/home">
+                <ListGroup.Item className="menu-item">
+                  Página inicial
+                </ListGroup.Item>
+              </Link>
+              <Link className="back-link" to="/sobre">
+                <ListGroup.Item className="menu-item">Sobre</ListGroup.Item>
+              </Link>
+              <Link className="back-link" to="/cursos">
+                <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
+              </Link>
+              <Link className="back-link" to="/experiencias">
+                <ListGroup.Item className="menu-item">Experiências</ListGroup.Item>
+              </Link>
+              <Link className="back-link" to="/contato">
+                <ListGroup.Item className="menu-item">Contato</ListGroup.Item>
+              </Link>
             </ListGroup>
           </div>
         </div>

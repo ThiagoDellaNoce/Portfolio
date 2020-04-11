@@ -2,12 +2,20 @@
 body {
   color: #fefefe;
   background-color: #2d3a41;
+  max-width: 100% !important;
+  overflow-x: hidden;
 }
 
 .row {
   margin: 0px;
 }
 
+.toolbar {
+  padding: 0px !important;
+}
+.navbar {
+  background-color: #1ed45f !important;
+}
 .content {
   height: auto;
   background-color: #2d3a41;
@@ -15,7 +23,8 @@ body {
 }
 
 .homeImg {
-  height: 50vh;
+  max-width: 100%;
+  max-height: 50vh;
   padding: 0px 0px 15px 0px;
 }
 

@@ -16,12 +16,16 @@ import Sidebar from "./components/Sidebar";
 export default function Routes() {
   return (
     <div>
-      <Toolbar />
-
       <BrowserRouter>
         <Switch>
+
           <Row className="row">
+            <Col className="toolbar" md={12}>
+              <Toolbar/>
+            </Col>
+
             <Col className="content" md={10}>
+
               <Route path="/home" component={ Home } />
               <Route path="/sobre" component={ Sobre } />
               <Route path="/cursos" component={ Cursos } />
@@ -34,6 +38,7 @@ export default function Routes() {
               <Sidebar />
             </Col>
           </Row>
+
         </Switch>
       </BrowserRouter>
     </div>
