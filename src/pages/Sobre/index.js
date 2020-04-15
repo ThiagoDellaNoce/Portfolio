@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import ComputerImg from "./../../images/_computer.png";
+
 import "./styles.css";
 
 export default function Sobre() {
@@ -29,7 +30,7 @@ export default function Sobre() {
         </Col>
       </Row>
       
-      <img className="img" style={{ width: "300px" }} src={ ComputerImg } alt="Imagem de icone - rapaz no computador" />
+      <img className="imgComputer" src={ ComputerImg } alt="Imagem de icone - rapaz no computador" />
     </div>
   );
 }
