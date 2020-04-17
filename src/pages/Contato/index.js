@@ -5,8 +5,8 @@ import Col from "react-bootstrap/Col";
 
 import ComunicacaoImg from "./../../images/_comunicacao.png";
 
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
 
 import "./styles.css";
 
@@ -23,13 +23,25 @@ export default function Contato() {
             <TextField className="text" label="E-mail" variant="outlined" />
             <TextField className="text" label="Assunto" variant="outlined" />
             <TextField className="text" label="Mensagem" variant="outlined" />
-            <Button variant="contained" style={{ backgroundColor: "#1ed45f", color: "#FFFFFF" }}>Enviar</Button>
+            <Button
+              variant="contained"
+              style={{ backgroundColor: "#1ed45f", color: "#FFFFFF" }}
+            >
+              Enviar
+            </Button>
           </form>
         </Col>
       </Row>
-
-      <img src={ComunicacaoImg} className="ComunicacaoImg" alt="icone de comunicação" />
-
+      <Row>
+        <Col md={7}></Col>
+        <Col md={5}>
+          <img
+            src={ComunicacaoImg}
+            className="ComunicacaoImg"
+            alt="icone de comunicação"
+          />
+        </Col>
+      </Row>
     </div>
-  )
+  );
 }

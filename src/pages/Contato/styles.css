@@ -1,15 +1,12 @@
 .ComunicacaoImg {
   max-width: 100%;
-  position: absolute;
-  width: 300px;
-  right: 20px;
-  bottom: 20px;
 }
 
 .text {
   max-width: 100%;
   color: white;
   padding: 0px 0px 15px 0px !important;
+  width: 100%;
 }
 
 .MuiFormLabel-root {
