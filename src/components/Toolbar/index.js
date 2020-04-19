@@ -41,23 +41,43 @@ export default function Toolbar() {
 
           <div className="sidebar-content">
             <ListGroup className="menu">
-              <Link className="back-link" to="/home">
+              <Link
+                className="back-link"
+                to="/home"
+                onClick={() => setOpen(!open)}
+              >
                 <ListGroup.Item className="menu-item">
                   Página inicial
                 </ListGroup.Item>
               </Link>
-              <Link className="back-link" to="/sobre">
+              <Link
+                className="back-link"
+                to="/sobre"
+                onClick={() => setOpen(!open)}
+              >
                 <ListGroup.Item className="menu-item">Sobre</ListGroup.Item>
               </Link>
-              <Link className="back-link" to="/cursos">
+              <Link
+                className="back-link"
+                to="/cursos"
+                onClick={() => setOpen(!open)}
+              >
                 <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
               </Link>
-              <Link className="back-link" to="/experiencias">
+              <Link
+                className="back-link"
+                to="/experiencias"
+                onClick={() => setOpen(!open)}
+              >
                 <ListGroup.Item className="menu-item">
                   Experiências
                 </ListGroup.Item>
               </Link>
-              <Link className="back-link" to="/contato">
+              <Link
+                className="back-link"
+                to="/contato"
+                onClick={() => setOpen(!open)}
+              >
                 <ListGroup.Item className="menu-item">Contato</ListGroup.Item>
               </Link>
             </ListGroup>

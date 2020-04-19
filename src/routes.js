@@ -18,27 +18,26 @@ export default function Routes() {
     <div>
       <BrowserRouter>
         <Switch>
+          <React.Fragment>
+            <Row className="row">
+              <Col className="toolbar" md={12}>
+                <Toolbar />
+              </Col>
 
-          <Row className="row">
-            <Col className="toolbar" md={12}>
-              <Toolbar/>
-            </Col>
+              <Col className="content" md={10}>
+                <Route path="/home" component={Home} />
+                <Route path="/sobre" component={Sobre} />
+                <Route path="/cursos" component={Cursos} />
+                <Route path="/experiencias" component={Experiencias} />
+                <Route path="/contato" component={Contato} />
+                <Route path="/" exact component={Home} />
+              </Col>
 
-            <Col className="content" md={10}>
-
-              <Route path="/home" component={ Home } />
-              <Route path="/sobre" component={ Sobre } />
-              <Route path="/cursos" component={ Cursos } />
-              <Route path="/experiencias" component={ Experiencias } />
-              <Route path="/contato" component={ Contato } />
-              <Route path="/" exact component={ Home } />
-            </Col>
-
-            <Col className="sidebar" md={2}>
-              <Sidebar />
-            </Col>
-          </Row>
-
+              <Col className="sidebar" md={2}>
+                <Sidebar />
+              </Col>
+            </Row>
+          </React.Fragment>
         </Switch>
       </BrowserRouter>
     </div>
