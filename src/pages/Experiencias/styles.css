@@ -2,6 +2,7 @@
   max-width: 100%;
   width: 100%;
   padding: 0px;
+  border-radius: 100px 100px 0px;
 }
 .exp {
   margin-top: 50px;

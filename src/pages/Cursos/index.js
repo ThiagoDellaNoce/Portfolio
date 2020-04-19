@@ -295,7 +295,7 @@ export default function Cursos() {
 
   useEffect(() => {
     setCourses(cursos);
-  }, []);
+  }, [cursos]);
 
   return (
     <div>
@@ -332,11 +332,6 @@ export default function Cursos() {
                   </p>
                 </Col>
               </Row>
-              {/* <Row>
-                <Col md={12}>
-                  <p>{course.description}</p>
-                </Col>
-              </Row> */}
 
               <hr />
             </div>

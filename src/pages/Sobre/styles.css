@@ -1,14 +1,13 @@
-.img {
+.imgComputer {
   position: absolute;
   width: 300px;
+  max-width: 300px;
   right: 20px;
 }
 
 p {
   text-align: justify;
 }
-
-
 
 /* mobile */
 @media screen and (max-width: 600px) {
@@ -17,7 +16,7 @@ p {
     text-align: center !important;
   }
 
-  .img {
+  .imgComputer {
     display: none;
   }
 }
