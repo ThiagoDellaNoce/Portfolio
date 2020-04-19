@@ -12,12 +12,8 @@ import FlapChickenImg from "./../../images/games/flapchicken.png";
 
 import FormaturaImg from "./../../images/formatura.jpg";
 
-import HelmetImg from "./../../images/games/helmet.jpg";
-
 import About1Img from "./../../images/about1.jpg";
 import About2Img from "./../../images/about2.jpg";
-import About3Img from "./../../images/about3.jpg";
-import About4Img from "./../../images/about4.jpg";
 
 import PalestraImg from "./../../images/games/Palestra_games_1.jpg";
 import Palestra2Img from "./../../images/games/Palestra_games_2.png";
@@ -28,20 +24,25 @@ export default function Sobre() {
   return (
     <div>
       <Row className="row">
-        <Col className="content" md={1}></Col>
-        <Col md={6}>
-          <h1>Sobre</h1>
+        <Col className="content" sm={12} md={1}></Col>
+        <Col sm={12} md={6}>
+          <h1 className="title">Sobre</h1>
 
           <div style={{ minHeight: "50px" }}></div>
 
           <p>
             Desde que comecei minha jornada como desenvolvedor há quase 4 anos,
-            trabalhei para empresas, startups, projetos free lance e colaborei
-            com diversos projetos. Com ajuda da minha curiosidade confio que
-            serei rápido para aprender a maneira mais eficaz de como te ajudar.
+            trabalhei para empresas, startups, projetos como freelancer e
+            colaborei com diversos tipos de projetos.
+            <br />
+            <br />
+            <label style={{ textAlign: "center" }}>
+              Com ajuda da minha curiosidade confio que serei rápido para
+              aprender a maneira mais eficaz de como te ajudar.
+            </label>
           </p>
 
-          <div style={{ minHeight: "30px" }}></div>
+          <div style={{ minHeight: "70px" }}></div>
 
           <p style={{ textAlign: "center", fontSize: "20px" }}>
             Let me{" "}
@@ -56,7 +57,7 @@ export default function Sobre() {
             it for you!
           </p>
 
-          <div style={{ minHeight: "30px" }}></div>
+          <div style={{ minHeight: "70px" }}></div>
 
           <p>
             Bacharel em Sistemas de informação, pela Universidade de Uberaba, e
@@ -65,8 +66,8 @@ export default function Sobre() {
             internet.
           </p>
 
-          <Row>
-            <Col md={6} style={{ float: "left", padding: "0px 5px 0px 0px" }}>
+          <Row style={{ margin: "0px" }}>
+            <Col md={6} style={{ padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={PongGameImg}
@@ -74,7 +75,7 @@ export default function Sobre() {
               />
             </Col>
 
-            <Col md={6} style={{ padding: "0px 0px 0px 5px" }}>
+            <Col md={6} style={{ padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={PongGame2Img}
@@ -88,15 +89,19 @@ export default function Sobre() {
             </label>
           </Row>
 
-          <div style={{ minHeight: "50px" }}></div>
+          <div style={{ minHeight: "70px" }}></div>
 
           <p>
+            Com auxiliação de{" "}
+            <Link style={{ color: "#1ed45f" }} to={`/cursos`}>
+              muitos cursos, tanto presenciais quanto online.
+            </Link>{" "}
             Dei meus primeiros passos com o Flash fazendo jogos para navegador e
             fui avançando até o C# com o unity fazendo até jogos mobile.
           </p>
 
-          <Row>
-            <Col md={6} style={{ float: "left", padding: "0px 5px 0px 0px" }}>
+          <Row style={{ margin: "0px" }}>
+            <Col md={6} style={{ float: "left", padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={TronImg}
@@ -104,7 +109,7 @@ export default function Sobre() {
               />
             </Col>
 
-            <Col md={6} style={{ padding: "0px 0px 0px 5px" }}>
+            <Col md={6} style={{ padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={FlapChickenImg}
@@ -118,7 +123,7 @@ export default function Sobre() {
             </label>
           </Row>
 
-          <div style={{ minHeight: "50px" }}></div>
+          <div style={{ minHeight: "140px" }}></div>
 
           <p>
             Logo depois entrei na faculdade, e descobri o fabuloso mundo da
@@ -129,19 +134,21 @@ export default function Sobre() {
           </p>
 
           <Row>
-            <Col md={12}>
+            <Col md={3}></Col>
+            <Col md={6}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={FormaturaImg}
                 alt="Foto da colação de grau."
               />
+              <label style={{ fontSize: "12px" }}>
+                Foto da minha colação de grau.
+              </label>
             </Col>
-            <label style={{ fontSize: "12px" }}>
-              Foto da minha colação de grau.
-            </label>
+            <Col md={3}></Col>
           </Row>
 
-          <div style={{ minHeight: "50px" }}></div>
+          <div style={{ minHeight: "130px" }}></div>
 
           <p>
             Além disso, venho ajudado a comunidade a crescer, participando e
@@ -150,15 +157,15 @@ export default function Sobre() {
             desenvolvimento android, desenvolvimento Angular e Material Design.
           </p>
 
-          <Row>
-            <Col md={12} style={{ float: "left", padding: "5px 0px" }}>
+          <Row style={{ margin: "0px" }}>
+            <Col md={6} style={{ float: "left", padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={PalestraImg}
                 alt="Foto de palestras dadas por Thiago Della Noce."
               />
             </Col>
-            <Col md={12} style={{ padding: "5px 0px" }}>
+            <Col md={6} style={{ padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={Palestra2Img}
@@ -176,15 +183,15 @@ export default function Sobre() {
             E ajudei também alguns eventos, como Startup Wekeend e TedXUFTM.
           </p>
 
-          <Row>
-            <Col md={12} style={{ float: "left", padding: "5px 0px" }}>
+          <Row style={{ margin: "0px" }}>
+            <Col md={6} style={{ float: "left", padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={About1Img}
                 alt="Foto de palestras dadas por Thiago Della Noce."
               />
             </Col>
-            <Col md={12} style={{ padding: "5px 0px" }}>
+            <Col md={6} style={{ padding: "5px 5px" }}>
               <img
                 style={{ maxWidth: "100%" }}
                 src={About2Img}
@@ -192,9 +199,11 @@ export default function Sobre() {
               />
             </Col>
           </Row>
+
+          <div style={{ minHeight: "50px" }}></div>
           {/* fim */}
         </Col>
-        <Col md={5}>
+        <Col sm={12} md={5}>
           <img
             className="imgComputer"
             src={ComputerImg}

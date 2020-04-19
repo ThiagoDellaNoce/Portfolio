@@ -3,3 +3,25 @@
   width: 300px;
   right: 20px;
 }
+
+p {
+  text-align: justify;
+}
+
+
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  .title {
+    margin-top: 30px;
+    text-align: center !important;
+  }
+
+  .imgComputer {
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    margin: 20px;
+    display: none;
+  }
+}
