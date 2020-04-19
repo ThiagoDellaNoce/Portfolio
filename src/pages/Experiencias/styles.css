@@ -1,16 +1,51 @@
 .ExpImg {
   max-width: 100%;
-  padding: 0px 0px 0px 15px;
+  width: 100%;
+  padding: 0px;
+}
+.exp {
+  margin-top: 50px;
 }
 
-.title {
+.titleExp {
   text-align: initial;
 }
 
-.subtitle {
+.subtitleExp {
   text-align: initial;
 }
 
-.paragrafo {
+.paragrafoExp {
   text-align: justify;
+}
+
+
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  .ExpImg {
+    padding: 0px 0px 15px;
+    text-align: center;
+  }
+
+  .titleExp {
+    text-align: center;
+  }
+  
+  .subtitleExp {
+    text-align: center;
+  }
+  
+  .paragrafoExp {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .exp {
+    margin-top: 0px;
+  }
+
+  hr {
+    margin: 50px 0px 66px 0px;
+  }
 }
