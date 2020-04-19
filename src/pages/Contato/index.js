@@ -16,7 +16,7 @@ export default function Contato() {
       <Row className="row">
         <Col className="content" md={1}></Col>
         <Col md={4}>
-          <h1>Contato</h1>
+          <h1 className="title">Contato</h1>
 
           <form>
             <TextField className="text" label="Nome" variant="outlined" />
