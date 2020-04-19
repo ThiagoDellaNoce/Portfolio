@@ -112,7 +112,7 @@ export default function Experiencias() {
         </Col>
       </Row>
 
-      <hr/>
+      <hr />
 
       {/* Moblearn */}
       <Row>
@@ -135,7 +135,7 @@ export default function Experiencias() {
         </Col>
       </Row>
 
-      <hr/>
+      <hr />
 
       {/* Ezatta */}
       <Row style={{ marginBottom: "140px" }}>

@@ -38,7 +38,7 @@ export default function Toolbar() {
             <h4>Thiago Della Noce</h4>
             <h5>Desenvolvedor</h5>
           </div>
-          
+
           <div className="sidebar-content">
             <ListGroup className="menu">
               <Link className="back-link" to="/home">
@@ -53,7 +53,9 @@ export default function Toolbar() {
                 <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
               </Link>
               <Link className="back-link" to="/experiencias">
-                <ListGroup.Item className="menu-item">Experiências</ListGroup.Item>
+                <ListGroup.Item className="menu-item">
+                  Experiências
+                </ListGroup.Item>
               </Link>
               <Link className="back-link" to="/contato">
                 <ListGroup.Item className="menu-item">Contato</ListGroup.Item>
