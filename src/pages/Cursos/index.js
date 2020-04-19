@@ -10,6 +10,7 @@ import CursosImg from "./../../images/_certificados.png";
 export default function Cursos() {
   const [courses, setCourses] = useState([]);
 
+  // Lista de cursos
   let cursos = [
     {
       title: "Universidade de Uberaba",
@@ -301,41 +302,47 @@ export default function Cursos() {
       <Row className="row">
         <Col className="content" md={1}></Col>
         <Col md={6}>
-          <h1>Cursos e certificações</h1>
+          <h1 className="title">Cursos e certificações</h1>
         </Col>
       </Row>
 
+      <div style={{ minHeight: "70px" }}></div>
+
       <Row>
-        <Col md={1}></Col>
+        <Col md={1}>
+          <img
+            className="img"
+            style={{ width: "300px" }}
+            src={CursosImg}
+            alt="imagem ilustrativa para cursos e certificações"
+          />
+        </Col>
         <Col md={3}></Col>
         <Col md={8}>
           {courses.map((course) => (
-            <div key={course.id}>
+            <div key={course.id} className="item">
               <Row>
                 <Col md={12}>
                   <p style={{ fontSize: "20px" }}>{course.title}</p>
                 </Col>
                 <Col md={4}></Col>
-                <Col md={8} style={{ float: "right", textAlign: "right" }}>
-                  <p style={{ fontSize: "14px" }}>{course.platform}</p>
+                <Col md={8}>
+                  <p style={{ fontSize: "14px", textAlign: "right" }}>
+                    {course.platform}
+                  </p>
                 </Col>
               </Row>
-              <Row>
+              {/* <Row>
                 <Col md={12}>
                   <p>{course.description}</p>
                 </Col>
-              </Row>
+              </Row> */}
+
+              <hr />
             </div>
           ))}
         </Col>
       </Row>
-
-      <img
-        className="img"
-        style={{ width: "300px" }}
-        src={CursosImg}
-        alt="imagem ilustrativa para cursos e certificações"
-      />
     </div>
   );
 }

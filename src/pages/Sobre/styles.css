@@ -1,4 +1,4 @@
-.imgComputer {
+.img {
   position: absolute;
   width: 300px;
   right: 20px;
@@ -17,11 +17,7 @@ p {
     text-align: center !important;
   }
 
-  .imgComputer {
-    position: relative;
-    bottom: 15px;
-    width: 100%;
-    margin: 20px;
+  .img {
     display: none;
   }
 }

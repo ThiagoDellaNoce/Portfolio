@@ -3,3 +3,16 @@
   bottom: 20px;
   left: 20px;
 }
+
+.item:hover {
+  transition: 0.3s;
+  filter: brightness(0.5);
+}
+
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  .imgComputer {
+    display: none;
+  }
+}
