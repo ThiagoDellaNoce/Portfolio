@@ -16,23 +16,23 @@ export default function Sidebar() {
 
       <div className="sidebar-content">
         <ListGroup className="menu">
-          <Link className="back-link" to="/home">
+          <Link className="back-link" to="/portfolio/home">
             <ListGroup.Item className="menu-item">Inicial</ListGroup.Item>
           </Link>
 
-          <Link className="back-link" to="/sobre">
+          <Link className="back-link" to="/portfolio/sobre">
             <ListGroup.Item className="menu-item">Sobre</ListGroup.Item>
           </Link>
 
-          <Link className="back-link" to="/cursos">
+          <Link className="back-link" to="/portfolio/cursos">
             <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
           </Link>
 
-          <Link className="back-link" to="/experiencias">
+          <Link className="back-link" to="/portfolio/experiencias">
             <ListGroup.Item className="menu-item">Experiências</ListGroup.Item>
           </Link>
 
-          <Link className="back-link" to="/contato">
+          <Link className="back-link" to="/portfolio/contato">
             <ListGroup.Item className="menu-item">Contato</ListGroup.Item>
           </Link>
         </ListGroup>

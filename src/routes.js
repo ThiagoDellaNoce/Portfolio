@@ -25,12 +25,12 @@ export default function Routes() {
               </Col>
 
               <Col className="content" md={10}>
-                <Route path="/home" component={Home} />
-                <Route path="/sobre" component={Sobre} />
-                <Route path="/cursos" component={Cursos} />
-                <Route path="/experiencias" component={Experiencias} />
-                <Route path="/contato" component={Contato} />
-                <Route path="/" exact component={Home} />
+                <Route path="/portfolio/home" component={Home} />
+                <Route path="/portfolio/sobre" component={Sobre} />
+                <Route path="/portfolio/cursos" component={Cursos} />
+                <Route path="/portfolio/experiencias" component={Experiencias} />
+                <Route path="/portfolio/contato" component={Contato} />
+                <Route path="/portfolio/" exact component={Home} />
               </Col>
 
               <Col className="sidebar" md={2}>

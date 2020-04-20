@@ -43,7 +43,7 @@ export default function Toolbar() {
             <ListGroup className="menu">
               <Link
                 className="back-link"
-                to="/home"
+                to="/portfolio/home"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">
@@ -52,21 +52,21 @@ export default function Toolbar() {
               </Link>
               <Link
                 className="back-link"
-                to="/sobre"
+                to="/portfolio/sobre"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">Sobre</ListGroup.Item>
               </Link>
               <Link
                 className="back-link"
-                to="/cursos"
+                to="/portfolio/cursos"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
               </Link>
               <Link
                 className="back-link"
-                to="/experiencias"
+                to="/portfolio/experiencias"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">
@@ -75,7 +75,7 @@ export default function Toolbar() {
               </Link>
               <Link
                 className="back-link"
-                to="/contato"
+                to="/portfolio/contato"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">Contato</ListGroup.Item>

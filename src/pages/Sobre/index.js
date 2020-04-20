@@ -93,7 +93,7 @@ export default function Sobre() {
 
           <p>
             Com auxiliação de{" "}
-            <Link style={{ color: "#1ed45f" }} to={`/cursos`}>
+            <Link style={{ color: "#1ed45f" }} to={`/portfolio/cursos`}>
               muitos cursos, tanto presenciais quanto online.
             </Link>{" "}
             Dei meus primeiros passos com o Flash fazendo jogos para navegador e
@@ -128,7 +128,7 @@ export default function Sobre() {
           <p>
             Logo depois entrei na faculdade, e descobri o fabuloso mundo da
             programação. E começei a trabalhar em alguns projetos, você consegue{" "}
-            <Link style={{ color: "#1ed45f" }} to={`/experiencias`}>
+            <Link style={{ color: "#1ed45f" }} to={`/portfolio/experiencias`}>
               encontrá-los aqui!
             </Link>
           </p>

@@ -1,13 +1,14 @@
 {
   "name": "portfolio-app",
-  "homepage": "https://thiagodellanoce.com.br/",
-  "version": "1.1.0",
+  "homepage": "https://thiagodellanoce.com.br/portfolio/",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.10",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run-script build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -1,0 +1,2 @@
+[20-Apr-2020 08:08:55 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/thiag340/public_html/backend/sendMail.php:1) in /home4/thiag340/public_html/backend/sendMail.php on line 9
+[20-Apr-2020 08:09:11 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/thiag340/public_html/backend/sendMail.php:1) in /home4/thiag340/public_html/backend/sendMail.php on line 9
