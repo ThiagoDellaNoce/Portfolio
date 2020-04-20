@@ -3,9 +3,23 @@
   background-color: #1ed45f !important;
 }
 
+.toolbar {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 28px;
+}
+
+.sidebar-head {
+  text-align: center;
+}
+
 .profileImg {
   margin: 20px 0px;
-  width: 100%;
+  width: 75%;
   padding: 0px 40px;
 }
 
@@ -45,5 +59,13 @@ h5 {
     margin: 20px 0px;
     width: 100%;
     padding: 0px 20px;
+  }
+
+  .toolbar {
+    position: relative;
+  }
+
+  .content {
+    margin-top: 0px;
   }
 }

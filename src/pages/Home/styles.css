@@ -1,0 +1,11 @@
+.nameTag {
+  width: 300px;
+}
+
+/* mobile */
+@media screen and (max-width: 650px) {
+  .nameTag {
+    width: 100%;
+    padding: 20px;
+  }
+}

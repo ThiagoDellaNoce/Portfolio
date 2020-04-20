@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
 
+import "./styles.css";
+
 import Navbar from "react-bootstrap/Navbar";
 import Collapse from "react-bootstrap/Collapse";
 import ListGroup from "react-bootstrap/ListGroup";
@@ -43,7 +45,7 @@ export default function Toolbar() {
             <ListGroup className="menu">
               <Link
                 className="back-link"
-                to="/portfolio/home"
+                to="/home"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">
@@ -52,21 +54,21 @@ export default function Toolbar() {
               </Link>
               <Link
                 className="back-link"
-                to="/portfolio/sobre"
+                to="/sobre"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">Sobre</ListGroup.Item>
               </Link>
               <Link
                 className="back-link"
-                to="/portfolio/cursos"
+                to="/cursos"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">Cursos</ListGroup.Item>
               </Link>
               <Link
                 className="back-link"
-                to="/portfolio/experiencias"
+                to="/experiencias"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">
@@ -75,7 +77,7 @@ export default function Toolbar() {
               </Link>
               <Link
                 className="back-link"
-                to="/portfolio/contato"
+                to="/contato"
                 onClick={() => setOpen(!open)}
               >
                 <ListGroup.Item className="menu-item">Contato</ListGroup.Item>

@@ -1,6 +1,6 @@
 {
   "name": "portfolio-app",
-  "homepage": "https://thiagodellanoce.com.br/portfolio/",
+  "homepage": ".",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

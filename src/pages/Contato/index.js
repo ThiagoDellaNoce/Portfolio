@@ -34,13 +34,6 @@ export default function Contato() {
   async function sendEmail(event) {
     event.preventDefault();
 
-    let data = {
-      name: name,
-      email: email,
-      subject: subject,
-      message: message,
-    };
-
     try {
       await api
         .get(
