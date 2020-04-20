@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import ComputerImg from "./../../images/_computer.png";
+import ComputerImg from "./../../images/_computer.gif";
 import PongGameImg from "./../../images/games/ponggame.jpg";
 import PongGame2Img from "./../../images/games/ponggame2.jpg";
 import TronImg from "./../../images/games/tron.jpg";
-import FlapChickenImg from "./../../images/games/flapchicken.png";
+import FlapChickenImg from "./../../images/games/flapchicken.gif";
 
 import FormaturaImg from "./../../images/formatura.jpg";
 

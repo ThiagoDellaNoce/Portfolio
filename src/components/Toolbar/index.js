@@ -8,7 +8,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Collapse from "react-bootstrap/Collapse";
 import ListGroup from "react-bootstrap/ListGroup";
 
-import MenuImg from "./../../images/icons/menu.png";
+import MenuImg from "./../../images/icons/menu.gif";
 import ProfileImg from "./../../images/profile.jpeg";
 
 export default function Toolbar() {

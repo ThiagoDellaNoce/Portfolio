@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 import "./styles.css";
 
-import CursosImg from "./../../images/_certificados.png";
+import CursosImg from "./../../images/_certificados.gif";
 
 export default function Cursos() {
   const [courses, setCourses] = useState([]);

@@ -1,7 +1,7 @@
 import React from "react";
 
-import homeImg from "./../../images/_planet.png";
-import nameTagImg from "./../../images/nameTag.png";
+import homeImg from "./../../images/_planet.gif";
+import nameTagImg from "./../../images/nameTag.gif";
 
 import "./styles.css";
 

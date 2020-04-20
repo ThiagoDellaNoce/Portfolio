@@ -4,10 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import Exp1Img from "./../../images/experience/ezattaLogo.jpg";
-import Exp2Img from "./../../images/experience/moblearnLogo.png";
-import Exp3Img from "./../../images/experience/trackageLogo.png";
-import Exp4Img from "./../../images/experience/ingressoliveLogo.png";
-import Exp5Img from "./../../images/experience/tbaLogo.png";
+import Exp2Img from "./../../images/experience/moblearnLogo.gif";
+import Exp3Img from "./../../images/experience/trackageLogo.gif";
+import Exp4Img from "./../../images/experience/ingressoliveLogo.gif";
+import Exp5Img from "./../../images/experience/tbaLogo.gif";
 
 import "./styles.css";
 
