@@ -22,9 +22,13 @@
 
 /* mobile */
 @media screen and (max-width: 600px) {
-  .ExpImg {
-    padding: 0px 0px 15px;
+  .cardExp {
     text-align: center;
+  }
+
+  .ExpImg {
+    width: 50%;
+    padding: 0px 0px 15px;
   }
 
   .titleExp {

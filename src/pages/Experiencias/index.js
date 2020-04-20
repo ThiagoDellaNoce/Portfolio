@@ -23,7 +23,7 @@ export default function Experiencias() {
       </Row>
 
       {/* TBA Digital */}
-      <Row>
+      <Row className="cardExp">
         <Col sm={12} md={1}></Col>
 
         <Col sm={2} md={2}>
@@ -46,7 +46,7 @@ export default function Experiencias() {
       <hr />
 
       {/* Ingressolive */}
-      <Row>
+      <Row className="cardExp">
         <Col sm={12} md={1}></Col>
 
         <Col sm={2} md={2}>
@@ -69,7 +69,7 @@ export default function Experiencias() {
       <hr />
 
       {/* Trackage */}
-      <Row>
+      <Row className="cardExp">
         <Col sm={12} md={1}></Col>
 
         <Col sm={2} md={2}>
@@ -92,7 +92,7 @@ export default function Experiencias() {
       <hr />
 
       {/* Trackage */}
-      <Row>
+      <Row className="cardExp">
         <Col sm={12} md={1}></Col>
 
         <Col sm={2} md={2}>
@@ -115,7 +115,7 @@ export default function Experiencias() {
       <hr />
 
       {/* Moblearn */}
-      <Row>
+      <Row className="cardExp">
         <Col sm={12} md={1}></Col>
 
         <Col sm={2} md={2}>
@@ -138,7 +138,7 @@ export default function Experiencias() {
       <hr />
 
       {/* Ezatta */}
-      <Row style={{ marginBottom: "140px" }}>
+      <Row className="cardExp" style={{ marginBottom: "140px" }}>
         <Col sm={12} md={1}></Col>
 
         <Col sm={2} md={2}>
