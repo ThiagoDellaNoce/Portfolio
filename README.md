@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Portfolio
 
 <p align="center">
-  <img src="https://imgur.com/NNvxl1C" alt="imagem figurando - O mundo em suas mãos">
+  <img src="./READMEIMG.gif" alt="imagem figurando - O mundo em suas mãos">
 
   <p align="center">Portfólio <strong>Thiago Della Noce </strong> front-end developer.</p>
 
