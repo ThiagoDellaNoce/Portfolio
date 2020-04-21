@@ -1,14 +1,14 @@
 # Portfolio
 
 <p align="center">
-  <img style="width: 50%" src="./READMEIMG.gif" alt="imagem figurando - O mundo em suas mãos">
+  <img width="150px" src="./READMEIMG.gif" alt="imagem figurando - O mundo em suas mãos">
 
   <p align="center">Portfólio <strong>Thiago Della Noce </strong> front-end developer.</p>
 
   <br>
 </p>
 
-## Sobre o Projeto
+## <p align="center">Sobre o Projeto</p>
 
 ### Hello World!
 
@@ -26,6 +26,6 @@ Além do [Site](https://www.thiagodellanoce.com.br/), você consegue me encontra
 - [Github](https://github.com/ThiagoDellaNoce)
 - [Twitter](https://twitter.com/ThiagoDellaNoce)
 
-## ------
+## <p align="center">- </p>
 
 <p align="center">Feito com o 💚</p>
